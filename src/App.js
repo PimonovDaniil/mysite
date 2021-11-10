@@ -6,6 +6,7 @@ import Projects from "./components/Projects/Projects";
 import Saitbody from "./components/sitebody/Saitbody";
 import {BrowserRouter, Redirect, Route} from "react-router-dom";
 import Pult from "./components/Projectpages/3/Pult";
+import Ice from "./components/Projectpages/4/Ice";
 
 function App() {
     document.title = "Пимонов Даниил";
@@ -21,6 +22,8 @@ function App() {
                            render={() => <Projects />}/>
                     <Route path="/projects3"
                            render={() => <Pult />}/>
+                    <Route path="/projects4"
+                           render={() => <Ice />}/>
                 </div>
             </div>
         </BrowserRouter>
