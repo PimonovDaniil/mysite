@@ -31,6 +31,15 @@
     text-decoration: none;
 }
 
+.discrDiv{
+    font-family: "Times New Roman";
+    color: white;
+    font-size: large;
+    padding-top: 10px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
 .headingDiv:hover{
     cursor: pointer;
 }

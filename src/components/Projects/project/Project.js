@@ -10,8 +10,8 @@ function Project(props) {
                 <div className="headingDiv">
                     {props.heading}
                 </div>
-                <div>
-                    текст
+                <div className="discrDiv">
+                    {props.description}
                 </div>
             </div>
         </div>
