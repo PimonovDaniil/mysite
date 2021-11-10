@@ -1,0 +1,28 @@
+.header {
+    text-align: center;
+    grid-area: h;
+    /*background-color: green;*/
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.item{
+    padding: 8px;
+
+    color:white;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+
+}
+
+.keklul{
+    /*background: red;*/
+    border: 3px solid white;
+}
+
+.item:hover{
+    border: 3px solid #bab3b3;
+    cursor: pointer;
+}

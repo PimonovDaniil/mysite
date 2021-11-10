@@ -1,0 +1,52 @@
+.sitediv {
+    grid-area: s;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.kek{
+    display:inline;
+    float:left;
+}
+
+.myname{
+    text-align: center;
+    margin: 10px;
+    font-family: "Times New Roman";
+    font-size:x-large;
+}
+
+.proger{
+    text-align: center;
+    background: #737070;
+    padding: 10px;
+}
+.proger2{
+    font-size:medium;
+    color: white;
+}
+
+.whitebox{
+    border-radius: 2px;
+    padding: 25px;
+    background: white;
+}
+
+.educationtext{
+    font-family: "Times New Roman";
+    font-size:x-large;
+}
+
+.skillstext{
+    font-family: "Times New Roman";
+}
+
+.textaboutme{
+    margin-top: 30vh;
+    margin-left: 30px;
+    display:inline;
+    float:left;
+    text-align: left;
+    color: white;
+}

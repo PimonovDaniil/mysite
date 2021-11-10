@@ -1,25 +1,27 @@
-import logo from './logo.svg';
+
 import './App.css';
 
+import Header from "./components/Header/Header";
+import Projects from "./components/Projects/Projects";
+import Saitbody from "./components/sitebody/Saitbody";
+import {BrowserRouter, Redirect, Route} from "react-router-dom";
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    document.title = "Пимонов Даниил";
+    return (
+        <BrowserRouter>
+            <div className="App">
+                <div className="app-wrapper">
+                    <Header/>
+                    <Redirect from="/"  to="/about" />
+                    <Route path="/about"
+                           render={() => <Saitbody />}/>
+                    <Route path="/projects"
+                           render={() => <Projects />}/>
+                </div>
+            </div>
+        </BrowserRouter>
+    );
 }
 
 export default App;
