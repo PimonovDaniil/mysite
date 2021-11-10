@@ -1,4 +1,5 @@
 import './Project.css';
+import {NavLink} from "react-router-dom";
 
 function Project(props) {
     return (
@@ -7,9 +8,7 @@ function Project(props) {
                 <img className="imgClass" src={props.imgPath} alt={"logo"}/>
             </div>
             <div className="textimgDiv">
-                <div className="headingDiv">
-                    {props.heading}
-                </div>
+                <NavLink to={"/projects"+props.id} className="headingDiv" >{props.heading}</NavLink>
                 <div className="discrDiv">
                     {props.description}
                 </div>
