@@ -1,0 +1,45 @@
+.imgClass{
+    width: 400px;
+    height: 200px;
+
+    /*float:left;*/
+}
+
+.projClass{
+    background: #1f1e1e;
+    margin: 20px;
+}
+
+.imgDiv{
+    float: left;
+    display:inline-block;
+
+}
+
+.textimgDiv{
+    height: 200px;
+
+    display: inline-block;
+}
+
+.headingDiv{
+    color: orange;
+    font-family: "Times New Roman";
+    font-size:x-large;
+    padding-top: 10px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+.discrDiv{
+    font-family: "Times New Roman";
+    color: #ccc;
+    font-size: large;
+    padding-top: 10px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+.headingDiv:hover{
+    cursor: pointer;
+}

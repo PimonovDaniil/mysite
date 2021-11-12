@@ -10,6 +10,8 @@ import Ice from "./components/Projectpages/Sensor/Ice";
 import Arhivarius from "./components/Projectpages/Arhivarius/Arhivarius";
 import Smarthome from "./components/Projectpages/Smarthome/Smarthome";
 import Glonass from "./components/Projectpages/Glonass/Glonass";
+import Contests from "./components/Contests/Contests";
+import Courses from "./components/Courses/Courses";
 
 function App() {
     document.title = "Пимонов Даниил";
@@ -33,6 +35,10 @@ function App() {
                            render={() => <Smarthome />}/>
                     <Route path="/glonass"
                            render={() => <Glonass />}/>
+                    <Route path="/contests"
+                           render={() => <Contests />}/>
+                    <Route path="/courses"
+                           render={() => <Courses />}/>
                 </div>
             </div>
         </BrowserRouter>

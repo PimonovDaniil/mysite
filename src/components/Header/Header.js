@@ -7,6 +7,7 @@ function Header() {
             <NavLink to="/about" className="item" activeClassName="keklul">Обо мне</NavLink>
             <NavLink to="/projects" className="item" activeClassName="keklul">Проекты</NavLink>
             <NavLink to="/contests" className="item" activeClassName="keklul">Конкурсы</NavLink>
+            <NavLink to="/courses" className="item" activeClassName="keklul">Курсы</NavLink>
         </div>
     )
 }
