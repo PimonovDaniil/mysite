@@ -8,7 +8,7 @@ function Project(props) {
                 <img className="imgClass" src={props.imgPath} alt={"logo"}/>
             </div>
             <div className="textimgDiv">
-                <NavLink to={"/projects"+props.id} className="headingDiv" >{props.heading}</NavLink>
+                <NavLink to={"/"+props.id} className="headingDiv" >{props.heading}</NavLink>
                 <div className="discrDiv">
                     {props.description}
                 </div>

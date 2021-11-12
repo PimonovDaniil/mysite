@@ -1,0 +1,27 @@
+.pultdiv{
+
+    background: #1f1e1e;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: "Times New Roman";
+    color: #ccc;
+    font-size:x-large;
+    text-decoration: none;
+}
+
+.linkIceClass{
+    color: orange;
+    text-decoration: none;
+}
+
+.wrappult{
+    grid-area: s;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.inlineclass{
+    float: left;
+    display:inline-block;
+}
